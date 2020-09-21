@@ -61,3 +61,7 @@ gem 'bullet', group: 'development'
 # For select timezone
 gem 'simple_form'
 
+# Markdown Parser
+gem 'redcarpet'
+gem 'sanitize'
+gem 'rouge'

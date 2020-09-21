@@ -106,6 +106,8 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -149,8 +151,14 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.0)
     regexp_parser (1.8.0)
+    rouge (3.23.0)
     rubyzip (2.3.0)
+    sanitize (5.2.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -221,6 +229,9 @@ DEPENDENCIES
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.3)
+  redcarpet
+  rouge
+  sanitize
   sass-rails (>= 6)
   selenium-webdriver
   simple_form

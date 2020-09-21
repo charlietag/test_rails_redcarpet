@@ -92,3 +92,9 @@
 
 * https://github.com/charlietag/test_rails_page_view/compare/v0.0.1...v0.0.2
   * Start trying ***vmg/redcarpet (gem)***
+  * with rouge
+    * My Reference Here
+      * Ref. https://www.lukeko.com/11/using-rouge-with-redcarpet
+    * Other Reference
+      * Ref. https://www.tom-meehan.com/posts/how-i-get-this-awesome-syntax-highlighting-using-redcarpet-and-rouge
+      * https://github.com/ruby-china/homeland/blob/67c071186fd60200eead1169c8f9f7809a0565f5/lib/homeland/pipeline/markdown_filter.rb
